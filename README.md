@@ -15,6 +15,25 @@ The data for each map is stored in json format in `dotlanMaps` directory.  `allR
 
 The only data stored is systems and jumps and their positions.  
 
+## Install
+
+Dotlanmaps can be included in a maven/gradle/whatever else project by using [jitpack](https://jitpack.io/).
+
+The kotlin dsl script would look something like 
+```
+repositories {
+    mavenCentral()
+    maven("https://jitpack.io")
+    ...
+}
+...
+dependencies {
+    compile(kotlin("stdlib-jdk8"))
+    compile("com.github.rnett:dotlanmaps:1.0.0")
+    ...
+}
+```
+
 ## Usage
 
 The DotlanMaps object will load maps as it is provided with files or directories to search (directories are searched recursively, with no limit).

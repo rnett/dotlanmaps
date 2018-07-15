@@ -1,7 +1,7 @@
 # Kotlin Dotlan Maps
 Data and wrappers for Dotlan maps
 
-Data files are in the dotlanMaps directory, readable files are in the dotlanMaps/pretty directory.
+Data files are in the `dotlanMaps` directory, readable files are in the `dotlanMaps/pretty` directory.
 
 The `allRegions.json` file contains the maps for every (non-WH and non-jove) region, and the other files contain a map of a single region.
 
@@ -10,6 +10,10 @@ The `allRegions.json` file contains the maps for every (non-WH and non-jove) reg
 All maps used here are property of Wollari, Daniel Hoffend, who runs [evemaps.dotlan.net](http://evemaps.dotlan.net/).
 This is only possible because he made the maps available in svg form.
 All Eve Related Materials (the systems and regions themselves) are Property Of CCP Games.
+
+The data for each map is stored in json format in `dotlanMaps` directory.  `allRegions.json` contains the data for all regions, other files only contain data for their region.
+
+The only data stored is systems and jumps and their positions.  
 
 ## Usage
 

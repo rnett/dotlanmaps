@@ -51,7 +51,7 @@ class DisplayJump(val base: DotlanJump){
     val startY get() = base.startY * scaleY
 
     val endX get() = base.endX * scaleX
-    val endY get() = base.endY * scaleX
+    val endY get() = base.endY * scaleY
 
     var scaleX = 1.0
     var scaleY = 1.0
